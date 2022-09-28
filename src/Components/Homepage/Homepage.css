@@ -41,7 +41,7 @@ h1 {
     font-size: 70px;
 }
 
-a {
+.trend {
     color: #989898 !important;
     text-decoration: none !important;
 }
@@ -53,6 +53,9 @@ a {
 .category:hover {
     background-color: #bf0100 !important;
     color: white;
+    cursor: pointer;
+    letter-spacing: 5px;
+    transition: 0.8s;
 }
 
 .category:focus-within {
@@ -72,6 +75,11 @@ color {
     width: 4rem;
     height: 3rem;
 }
+
+/* .trend-img {
+    width: 4rem;
+    height: 3rem;
+} */
 
 @media (max-width: 992px) {
     .category-cont {
