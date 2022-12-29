@@ -53,10 +53,17 @@ h1 {
 .category:hover {
     background-color: #bf0100 !important;
     color: white;
+    border: none;
     cursor: pointer;
     letter-spacing: 5px;
     transition: 0.8s;
+
 }
+
+/* .category {
+    width: 200px;
+
+} */
 
 .category:focus-within {
     background-color: #bf0100 !important;
@@ -76,22 +83,38 @@ color {
     height: 3rem;
 }
 
+.change {
+    flex-direction: column;
+}
+
+/* .r {
+    padding: 5px;
+} */
+
 /* .trend-img {
     width: 4rem;
     height: 3rem;
 } */
 
 @media (max-width: 992px) {
-    .category-cont {
+
+    /* .category-cont {
         display: none;
+    }*/
+    .r {
+        padding: 0;
     }
 
     .popular-cont {
         display: none;
     }
 
-    .main {
-        padding: 0 !important;
+    .change {
+        flex-direction: row;
     }
+
+    /* .main {
+        padding: 0 !important;
+    } */
 
 }
